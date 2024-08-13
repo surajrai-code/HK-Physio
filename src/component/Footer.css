@@ -1,0 +1,44 @@
+.f-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.f-cont {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer, .secfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer p, .secfooter p {
+    margin: 0;
+}
+
+
+@media (width<=800px) {
+    .f-cont {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        border-bottom: 1px solid #000;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .secfooter {
+        padding-top: 10px;
+    }
+}

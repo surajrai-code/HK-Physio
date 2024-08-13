@@ -1,0 +1,74 @@
+.how-it-works {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.cnt {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(246, 243, 243);
+}
+
+.book-now {
+    background-color: #f8a800;
+    color: black;
+    border: none;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.book-now:hover {
+    background-color: #e69700;
+}
+
+@media (max-width: 800px) {
+    .steps {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .step {
+        width: 100%;
+    }
+
+    .icon-container {
+        width: 60px;
+        height: 60px;
+    }
+}
