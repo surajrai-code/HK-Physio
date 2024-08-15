@@ -12,7 +12,7 @@ const HowItWorks = () => {
   return (
     <div className="how-it-works">
       <div className="cnt">
-        <h2>HOW DOES IT WORK?</h2>
+        <h1>HOW DOES IT WORK?</h1>
         <div className="steps">
           <div className="step">
             <div className="icon-container">
