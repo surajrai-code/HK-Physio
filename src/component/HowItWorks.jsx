@@ -39,7 +39,7 @@ const HowItWorks = () => {
             <p>Physiotherapist Creates Treatment Plan</p>
           </div>
         </div>
-        <button className="book-now" onClick={handleBookNowClick}>BOOK NOW</button>
+        <button className="book-now" onClick={handleBookNowClick}>ENQUIRE NOW</button>
       </div>
     </div>
   );

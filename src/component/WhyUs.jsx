@@ -35,13 +35,13 @@ const WhyUs = () => {
   return (
     <div className="container">
       <div className="why-cont">
-        <h1>Why Choose Portea?</h1>
+        <h1>WHY CHOOSE HK-PHYSIO-CARE?</h1>
         <div className="features">
           {features.map((feature, index) => (
             <Feature key={index} text={feature} imgSrc={images[index]} />
           ))}
         </div>
-        <button className="book-now" onClick={handleBookNowClick}>Book Now</button>
+        <button className="book-now" onClick={handleBookNowClick}>ENQUIRE NOW</button>
       </div>
     </div>
   );

@@ -20,6 +20,7 @@
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   gap: 25% 2%;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .feature {
@@ -64,7 +65,6 @@
 }
 
 .book-now {
-  margin-top: 2rem;
   background-color: #ff9900;
   border: none;
   border-radius: 0.25rem;
@@ -82,11 +82,9 @@
 @media (width<=800px) {
   .container {
     flex-direction: column;
-    height: fit-content;
-    gap: 4rem;
   }
   .why-cont h1 {
-    margin-top: 2rem;
+    text-align: center;
   }
 
   .features {
@@ -109,7 +107,7 @@
 
   .book-now {
     width: 100%;
-    padding: 1rem;
-    margin-top: 0%;
+    /* padding: 1rem;
+    margin-top: 0%; */
   }
 }

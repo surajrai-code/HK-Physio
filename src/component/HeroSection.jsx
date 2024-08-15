@@ -28,8 +28,7 @@ const HeroForm = () => {
   });
 
   const cities = [
-    'New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix',
-    'Philadelphia', 'San Antonio', 'San Diego', 'Dallas', 'San Jose',
+   'Chennai','Bangalore','Vellore', 'Tiruvarur','Salem', 'Pondicherry', 'Gingee', 'Hosur', 'Krishnagiri', 'Pudukottai'
   ];
 
   const handleChange = (e) => {
@@ -96,18 +95,7 @@ const HeroForm = () => {
               <option key={index} value={city}>{city}</option>
             ))}
           </select>
-          <div className="checkbox-container">
-            <input
-              type="checkbox"
-              id="terms"
-              name="termsAccepted"
-              checked={formData.termsAccepted}
-              onChange={handleChange}
-              required
-            />
-            <label htmlFor="terms">I accept terms & conditions</label>
-          </div>
-          <button type="submit" className="submit-button">BOOK NOW</button>
+          <button type="submit" className="submit-button">ENQUIRE NOW</button>
         </form>
       </div>
     </div>

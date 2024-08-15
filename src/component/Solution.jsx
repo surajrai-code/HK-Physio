@@ -19,13 +19,14 @@ const Solution = () => {
           <div className="row">
             <div className="button">Paediatric Physiotherapy</div>
             <div className="button">Physiotherapy For Elderly</div>
-            <div className="button">Example Service</div>
+            <div className="button">Ergonomics Session</div>
+           
           </div>
           <div className="row">
-            <div className="button">Single Service</div>
+          <div className="button">Gynaecology Physiotherapy Service</div>
           </div>
         </div>
-        <button className="book-now" onClick={handleBookNowClick}>BOOK NOW</button>
+        <button className="book-now" onClick={handleBookNowClick}>ENQUIRE NOW</button>
       </div>
     </div>
   );
